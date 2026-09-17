@@ -1,69 +1,178 @@
-/* =========================================================
-   OUR STORY — configuration
-   Edit everything in this object. The rest of the site reads
-   from it automatically — you should not need to touch the
-   HTML to update content, photos, or the playlist.
-   ========================================================= */
-const friendshipData = {
+
+constfriendshipData = {
   person1: "Om",
   person2: "Alaka", // Om calls her "Awwlie"
 
   story: {
-    beginning: "[YOUR STORY — how you first met]",
-    firstMemory: "[YOUR FIRST MEMORY TOGETHER]",
-    specialMoment: "[THE MOMENT YOU BECAME CLOSE]"
+    beginning:
+      "It started like most ordinary things do — without either of us knowing that it would become something worth remembering. A few conversations, a few laughs, and somehow, you became one of the most important people in my life.",
+
+    firstMemory:
+      "I don't remember every detail of the first day, but I remember the feeling. It was easy to talk, easy to laugh, and somehow being around you never felt unfamiliar.",
+
+    specialMoment:
+      "There wasn't one dramatic moment when we became best friends. It happened slowly — through random conversations, stupid jokes, little arguments, endless laughs, and simply being there for each other."
   },
 
-  // Chapter 03 — Memory Lane. Add as many as you like; the layout
-  // repeats every 6 cards in a photo/polaroid pattern automatically.
-  // Titles below are just neutral placeholders — replace with your real
-  // captions and dates whenever you're ready.
   memories: [
-    { image: "assets/photos/photo1.jpg",  date: "[DATE]", title: "Pointing At Each Other",     caption: "[SHORT CAPTION]" },
-    { image: "assets/photos/photo2.jpg",  date: "[DATE]", title: "[MEMORY TITLE]",              caption: "[SHORT CAPTION]" },
-    { image: "assets/photos/photo3.jpg",  date: "[DATE]", title: "On The Wall",                 caption: "[SHORT CAPTION]" },
-    { image: "assets/photos/photo4.jpg",  date: "[DATE]", title: "[MEMORY TITLE]",              caption: "[SHORT CAPTION]" },
-    { image: "assets/photos/photo5.jpg",  date: "[DATE]", title: "[MEMORY TITLE]",              caption: "[SHORT CAPTION]" },
-    { image: "assets/photos/photo6.jpg",  date: "[DATE]", title: "[MEMORY TITLE]",              caption: "[SHORT CAPTION]" },
-    { image: "assets/photos/photo7.jpg",  date: "[DATE]", title: "[MEMORY TITLE]",              caption: "[SHORT CAPTION]" },
-    { image: "assets/photos/photo8.jpg",  date: "[DATE]", title: "Arms Crossed",                caption: "[SHORT CAPTION]" },
-    { image: "assets/photos/photo9.jpg",  date: "[DATE]", title: "[MEMORY TITLE]",              caption: "[SHORT CAPTION]" },
-    { image: "assets/photos/photo10.jpg", date: "[DATE]", title: "[MEMORY TITLE]",              caption: "[SHORT CAPTION]" },
-    { image: "assets/photos/photo11.jpg", date: "[DATE]", title: "Haldi Day",                   caption: "[SHORT CAPTION]" },
-    { image: "assets/photos/photo12.jpg", date: "[DATE]", title: "[MEMORY TITLE]",              caption: "[SHORT CAPTION]" }
+    {
+      image: "assets/photos/photo1.jpg",
+      date: "The Beginning",
+      title: "Where It All Started",
+      caption: "Every story has a beginning. This one became our favourite."
+    },
+    {
+      image: "assets/photos/photo2.jpg",
+      date: "One Random Day",
+      title: "Just Us",
+      caption: "Nothing special was planned. Somehow, it became special."
+    },
+    {
+      image: "assets/photos/photo3.jpg",
+      date: "A Memory",
+      title: "No Context Needed",
+      caption: "Some pictures don't need explanations."
+    },
+    {
+      image: "assets/photos/photo4.jpg",
+      date: "Somewhere Along The Way",
+      title: "Same Chaos",
+      caption: "Different personalities. Same level of nonsense."
+    },
+    {
+      image: "assets/photos/photo5.jpg",
+      date: "Another Day",
+      title: "The Laughs",
+      caption: "Half the memories started with something completely stupid."
+    },
+    {
+      image: "assets/photos/photo6.jpg",
+      date: "One For The Camera",
+      title: "Caught In A Moment",
+      caption: "A tiny moment that somehow deserved to stay forever."
+    },
+    {
+      image: "assets/photos/photo7.jpg",
+      date: "The Good Days",
+      title: "Worth Remembering",
+      caption: "The kind of day you wish you could replay."
+    },
+    {
+      image: "assets/photos/photo8.jpg",
+      date: "Still Us",
+      title: "Arms Crossed",
+      caption: "Same people. Same bond. Slightly more memories."
+    },
+    {
+      image: "assets/photos/photo9.jpg",
+      date: "Another Chapter",
+      title: "Another Memory",
+      caption: "One more picture for the story."
+    },
+    {
+      image: "assets/photos/photo10.jpg",
+      date: "Unplanned",
+      title: "No Perfect Moment",
+      caption: "The best memories were never perfectly planned."
+    },
+    {
+      image: "assets/photos/photo11.jpg",
+      date: "Haldi Day",
+      title: "Haldi Day",
+      caption: "A little colour, a lot of memories."
+    },
+    {
+      image: "assets/photos/photo12.jpg",
+      date: "Today",
+      title: "Still Here",
+      caption: "And somehow, the story is still being written."
+    }
   ],
 
-  // Chapter 04 — Just Us Being Us
   chaos: [
-    { label: "Inside Joke #01", text: "[TEXT]" },
-    { label: "Moment #02",      text: "[TEXT]" },
-    { label: "That One Day...", text: "[TEXT]" },
-    { label: "Still Don't Know Why We Did That.", text: "[TEXT]" }
+    {
+      label: "Inside Joke #01",
+      text: "A joke that started as nothing and somehow became a permanent part of our friendship."
+    },
+    {
+      label: "Random Conversation",
+      text: "One normal conversation somehow turning into a completely unrelated topic after five minutes."
+    },
+    {
+      label: "That One Day...",
+      text: "We still don't completely understand what happened that day. Maybe that's what makes it funny."
+    },
+    {
+      label: "Still Don't Know Why We Did That.",
+      text: "Zero planning. Zero logic. Maximum confidence."
+    },
+    {
+      label: "The Arguments",
+      text: "We can argue over the smallest things and somehow be completely normal five minutes later."
+    },
+    {
+      label: "The Calls",
+      text: "A quick call that was supposed to last five minutes somehow becoming an entire episode."
+    },
+    {
+      label: "No Context",
+      text: "One look. One word. And somehow we both know exactly what's going on."
+    },
+    {
+      label: "Bestie Logic",
+      text: "If it makes sense to us, that's enough. Everyone else can figure it out later."
+    }
   ],
 
-  // Friendship stats — "num" can be a plain number (will count up),
-  // or text like "∞" / "999+" / "100%" / "MAX" (shown as-is).
   stats: [
-    { num: "∞",    label: "Memories" },
-    { num: "∞",    label: "Inside Jokes" },
+    { num: "∞", label: "Memories" },
+    { num: "∞", label: "Inside Jokes" },
     { num: "999+", label: "Random Talks" },
-    { num: "∞",    label: "Laughs" },
+    { num: "∞", label: "Laughs" },
     { num: "999+", label: "Arguments" },
     { num: "100%", label: "Trust" },
-    { num: "MAX",  label: "Bestie Level" }
+    { num: "MAX", label: "Bestie Level" }
   ],
 
-  // Chapter 05 — playlist.
   playlist: [
-    { title: "By My Side",     artist: "AP Dhillon",              audio: "assets/music/song1.mp3", cover: "assets/photos/photo1.jpg" },
-    { title: "Mera Yaar",      artist: "Savi Kahlon",              audio: "assets/music/song2.mp3", cover: "assets/photos/photo3.jpg" },
-    { title: "Thinking Of You",artist: "AP Dhillon",              audio: "assets/music/song3.mp3", cover: "assets/photos/photo5.jpg" },
-    { title: "With You",       artist: "AP Dhillon",              audio: "assets/music/song4.mp3", cover: "assets/photos/photo7.jpg" },
-    { title: "Dil Nu",         artist: "Shinda Kahlon, AP Dhillon",audio: "assets/music/song5.mp3", cover: "assets/photos/photo9.jpg" },
-    { title: "Wo Noor",        artist: "AP Dhillon",              audio: "assets/music/song6.mp3", cover: "assets/photos/photo11.jpg" }
+    {
+      title: "By My Side",
+      artist: "AP Dhillon",
+      audio: "assets/music/song1.mp3",
+      cover: "assets/photos/photo1.jpg"
+    },
+    {
+      title: "Mera Yaar",
+      artist: "Savi Kahlon",
+      audio: "assets/music/song2.mp3",
+      cover: "assets/photos/photo3.jpg"
+    },
+    {
+      title: "Thinking Of You",
+      artist: "AP Dhillon",
+      audio: "assets/music/song3.mp3",
+      cover: "assets/photos/photo5.jpg"
+    },
+    {
+      title: "With You",
+      artist: "AP Dhillon",
+      audio: "assets/music/song4.mp3",
+      cover: "assets/photos/photo7.jpg"
+    },
+    {
+      title: "Dil Nu",
+      artist: "Shinda Kahlon, AP Dhillon",
+      audio: "assets/music/song5.mp3",
+      cover: "assets/photos/photo9.jpg"
+    },
+    {
+      title: "Wo Noor",
+      artist: "AP Dhillon",
+      audio: "assets/music/song6.mp3",
+      cover: "assets/photos/photo11.jpg"
+    }
   ],
 
-  // Chapter 10 — final photo sequence (reuses /assets/photos/ files)
   finalPhotos: [
     "assets/photos/photo1.jpg",
     "assets/photos/photo7.jpg",
@@ -71,25 +180,36 @@ const friendshipData = {
     "assets/photos/photo11.jpg"
   ],
 
-  // Section 09 — Things I Never Say
-  letter:
-`Awwlie,
+  letter: `Awwlie,
 
-There are some things that are easier to write than say.
+There are some things I don't say often enough.
 
 Thank you for being there.
-Thank you for understanding.
-Thank you for being you.
 
-You've been my best friend and somehow my sister too —
-two things I never expected to find in one person.
+For the random conversations.
+For the stupid jokes.
+For the unnecessary arguments.
+For the laughs that make absolutely no sense.
+For listening to things that probably didn't even need to be told.
 
-Whatever happens, I hope this friendship always remains
-one of the most beautiful parts of our story.
+Somewhere between all the ordinary days, random messages, endless conversations and completely chaotic moments, you became more than just a best friend.
 
-— Om`
+You became family.
+
+And honestly, that's one of the things I'll always be grateful for.
+
+We've already collected more memories than we probably realise, and I hope this is only the beginning of many more.
+
+Years from now, I hope we'll look back at these pictures and laugh at how much we have changed — while still being the same two idiots who somehow became best friends.
+
+Whatever life brings, I hope this friendship always remains one of the most beautiful parts of our story.
+
+No matter how many chapters we add,
+
+I'll always be glad that this story started with you.
+
 };
-
+  // 
 /* =========================================================
    Utilities
    ========================================================= */
